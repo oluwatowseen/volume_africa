@@ -1,0 +1,12 @@
+/*
+ ####################################
+        AlphaMusicMan FONT
+ ####################################
+ */
+
+@font-face {
+    font-family: AlphaMusicMan;
+    src: url('AlphaMusicMan.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
