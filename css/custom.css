@@ -611,6 +611,16 @@ polyline{
 .swiper-slide .music-section .banner-section .overlay .control-section span.play i{
   font-size: 55px;
 }
+.swiper-slide .music-section .banner-section .overlay .control-section span.pause{
+  font-size: 55px;
+  padding-top: 6px;
+  float: left;
+  width: 33%;
+  margin-top: -3px;
+}
+.swiper-slide .music-section .banner-section .overlay .control-section span.pause i{
+  font-size: 55px;
+}
 .swiper-slide .music-section .banner-section .overlay .control-section span.next{
   font-size: 35px;
   float: right;
@@ -1196,5 +1206,3 @@ polyline{
   background-color: transparent;
   border: 1px solid #00A59C;
 }
-
-

@@ -81,7 +81,10 @@
                             <div class="imgSection" style="background-image: url('img/aa3.jpeg');"></div>
                             <div class="control-section clearfix">
                                 <span class="prev"><i class="material-icons">&#xE045;</i></span>
-                                <span class="play"><i class="material-icons">&#xE037;</i></span>
+                                <div>
+                                    <span class="play"><i class="material-icons">&#xE037;</i></span>
+                                    <span class="pause" style="display: none;"><i class="material-icons">&#xE034;</i></span>
+                                </div>
                                 <span class="next"><i class="material-icons">&#xE044;</i></span>
                             </div>
                         </div>
@@ -154,10 +157,17 @@
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-
+        $(document).ready(function(){
+            $(".play").click(function(){
+                $(".pause").show();
+                $(".play").hide();
+            });
+            $(".pause").click(function(){
+                $(".play").show();
+                $(".pause").hide();
+            });
+        });
 		
-
-
     </script>
 
 </body>
